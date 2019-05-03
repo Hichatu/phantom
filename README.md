@@ -1,2 +1,2 @@
-# Literally a blank website
-More to come soon
+# More than just a blank website
+https://www.hichatu.com
