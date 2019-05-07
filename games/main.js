@@ -12,7 +12,7 @@ function clickClicks() {
 
 function buy2xClick() {
 	if gameData.clicks >= xd {
-		gameData.clicksPerClick = gameData.clicksPerClick * 2
+		gameData.clicksPerClick += gameData.clicksPerClick * 2
 		var xd = xd * 2;
 	}
 }
