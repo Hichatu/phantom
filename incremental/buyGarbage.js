@@ -10,5 +10,7 @@ function buy2xClicks() {
 }
 
 function buyAutoClicker() {
-	window.alert("This doesn't do anything yet");
+	if (gameData.clicks >= gameData.clicksAutoClickerCost) {
+		window.alert("This doesn't do anything yet");
+	}
 }
