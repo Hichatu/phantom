@@ -3,18 +3,9 @@ var gameData = {
   clicksPerClick: 1
 }
 
-var xd = 20;
-
 function clickClicks() {
 	gameData.clicks += gameData.clicksPerClick
 	document.getElementById("clicksClicked").innerHTML = gameData.clicks + " Clicks Clicked"
-}
-
-function buy2xClick() {
-	if gameData.clicks >= xd {
-		gameData.clicksPerClick += gameData.clicksPerClick * 2
-		var xd = xd * 2;
-	}
 }
 
 var saveGameLoop = window.setInterval(function() {
