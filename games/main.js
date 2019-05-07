@@ -8,6 +8,12 @@ function clickClicks() {
 	document.getElementById("clicksClicked").innerHTML = gameData.clicks + " Clicks Clicked"
 }
 
+function buy2xClick() {
+	if gameData.clicks >= 20 {
+		gameData.clicksPerClick = gameData.clicksPerClick * 2
+	}
+}
+
 var saveGameLoop = window.setInterval(function() {
 	localStorage.setItem("clickClickerSave", JSON.stringify(gameData))
 }, 1)
