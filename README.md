@@ -1,2 +1,2 @@
-# More than just a blank website
+# An Incremental Game
 https://www.hichatu.com
