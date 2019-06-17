@@ -1,2 +1,2 @@
-# An Website
+# A Website
 https://www.hichatu.com
