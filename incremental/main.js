@@ -1,9 +1,9 @@
 var gameData = {
-  clicks: 0,
-  clicksPerClick: 1
+  klicks: 0,
+  klicksPerClick: 1
 }
 
 function click() {
-  gameData.clicks += gameData.clicksPerClick
-  document.getElementById("clicks").innerHTML = gameData.clicks
+  gameData.klicks += gameData.klicksPerClick
+  document.getElementById("klicks").innerHTML = gameData.klicks
 }
