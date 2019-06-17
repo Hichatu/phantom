@@ -5,5 +5,5 @@ var gameData = {
 
 function click() {
   gameData.clicks += gameData.clicksPerClick
-  document.getElementId("Clicks").innerHTML = gameData.clicks
+  document.getElementId("clicks").innerHTML = gameData.clicks
 }
