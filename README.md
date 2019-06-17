@@ -1,2 +1,2 @@
-# An Incremental Game
+# An Website
 https://www.hichatu.com
