@@ -10,7 +10,7 @@ window.onload = function onload() {
 	gameData.klicks += 1
 	gameData.klicks -= 1
 	document.getElementById("klicks").innerHTML = gameData.klicks
-	testloop()
+	elementchecker()
 }
 
 //A loop to check for which elements should be displayed
