@@ -45,6 +45,7 @@ function buy2xClick() {
 //Reset Function
 function reset() {
 	gameData.klicks = 0
+	document.getElementById("klicks").innerHTML = gameData.klicks
 	gameData.klicksPerClick = 1
 	gameData.klicks2xPrice = 64
 }
