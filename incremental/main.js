@@ -17,7 +17,7 @@ var windowLoop = window.setInterval(function() {
 
 //A check to see what elements should be displayed on the page
 function elementchecker() {
-	if (gameData.klicks >= gameData.klicks2xPrice) {
+	if (gameData.klicks >= gameData.klicks2xPrice/2) {
 		document.getElementById("2xClickButton").style.display = "";
 	}
 	else {
