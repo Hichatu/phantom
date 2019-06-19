@@ -35,7 +35,7 @@ function buy2xClick() {
 		gameData.klicks -= gameData.klicks2xPrice
 		document.getElementById("klicks").innerHTML = gameData.klicks
 		gameData.klicksPerClick *= 2
-		gameData.klicks2xPrice *= 2.5
+		gameData.klicks2xPrice *= 3
 	}
 }
 
