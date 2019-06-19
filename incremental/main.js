@@ -38,6 +38,7 @@ function buy2xClick() {
 		document.getElementById("klicks").innerHTML = gameData.klicks
 		gameData.klicksPerClick *= 2
 		gameData.klicks2xPrice *= 3
+		document.getElementById("2xClickButton").innerHTML = "Buy 2x Clicking (Cost " + gameData.klicks2xPrice + ")"
 	}
 }
 
