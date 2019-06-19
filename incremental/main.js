@@ -5,17 +5,19 @@ var gameData = {
 	klicks2xPrice: 64,
 }
 
-//Lidl way to fix "0 Klicks" on page load, also runs element checker
+//Onload page function
 window.onload = function onload() {
-	gameData.klicks += 1
-	gameData.klicks -= 1
 	document.getElementById("klicks").innerHTML = gameData.klicks
-	elementchecker()
 }
 
-//A loop to check for which elements should be displayed
+//Loop for various stuff
+var windowLoop = window.setInterval(function() {
+  elementchecker()
+}, 1)
+
+//A check to see what elements should be displayed on the page
 function elementchecker() {
-	if (gameData.klicks >= 32) {
+	if (gameData.klicks >= gameData.klicks2xPrice/2) {
 		document.getElementById("2xClickButton").style.display = "";
 	}
 	else {
